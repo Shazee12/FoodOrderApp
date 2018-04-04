@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "425911664782",
+    "firebase_url": "https://foodorderapp-8cec1.firebaseio.com",
+    "project_id": "foodorderapp-8cec1",
+    "storage_bucket": "foodorderapp-8cec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425911664782:android:6c2dd6de868ba7cd",
+        "android_client_info": {
+          "package_name": "shahzaib.com.foodorderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425911664782-mhrsncg9prifjs3c0kubfkmp57gpgedg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shahzaib.com.foodorderapp",
+            "certificate_hash": "41c870dd4b53932c609ada474e83b2e3208f56db"
+          }
+        },
+        {
+          "client_id": "425911664782-psfq8lidtqrdrng8p0h875mme57o4dih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-w0BQLUruWfmZa4LkKe7MCnS0-rIHdTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425911664782-psfq8lidtqrdrng8p0h875mme57o4dih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
