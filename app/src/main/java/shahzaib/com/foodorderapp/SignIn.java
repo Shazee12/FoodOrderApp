@@ -1,6 +1,7 @@
 package shahzaib.com.foodorderapp;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +16,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
+import shahzaib.com.foodorderapp.Common.Common;
 import shahzaib.com.foodorderapp.Model.User;
 
 
@@ -52,6 +54,8 @@ public class SignIn extends AppCompatActivity {
                             User user = dataSnapshot.child(phoneNumeber.getText().toString()).getValue(User.class);
                             if (user.getPassword().equals(password.getText().toString())) {
                                 Toast.makeText(SignIn.this, "sign in succesfully", Toast.LENGTH_SHORT).show();
+                                Common.currentUser = user;
+                                startActivity(new Intent(SignIn.this,MenuActivity.class));
 
                             } else {
                                 Toast.makeText(SignIn.this, "sign in failed", Toast.LENGTH_SHORT).show();
